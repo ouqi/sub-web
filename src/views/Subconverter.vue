@@ -254,7 +254,7 @@ export default {
         },
         customBackend: {
           "localhost:25500 本地版": "http://localhost:25500/sub?",
-          "sub-beta.vercel.app": "https://sub-beta.vercel.app/sub?",
+          "sub.9me.net": "https://sub.9me.net/sub?",
           "sub.9me.net":
             "https://sub.9me.net/sub?",
           "api.dler.io(sub作者&lhie1提供-稳定)": "https://api.dler.io/sub?",
