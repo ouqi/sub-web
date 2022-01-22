@@ -255,8 +255,7 @@ export default {
         customBackend: {
           "localhost:25500 本地版": "http://localhost:25500/sub?",
           "sub.9me.net": "https://sub.9me.net/sub?",
-          "sub.9me.net":
-            "https://sub.9me.net/sub?",
+          "sub.9me.net": "https://sub.9me.net/sub?",
           "api.dler.io(sub作者&lhie1提供-稳定)": "https://api.dler.io/sub?",
           "api.wcc.best(sub-web作者提供-稳定)": "https://api.wcc.best/sub?",
           "sub.id9.cc(品云转换)": "https://sub.id9.cc/sub?",
