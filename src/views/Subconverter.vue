@@ -255,7 +255,7 @@ export default {
         customBackend: {
           "localhost:25500 本地版": "http://localhost:25500/sub?",
           "sub.9me.net": "https://sub.9me.net/sub?",
-          "sub.9me.net": "https://sub.9me.net/sub?",
+          "suc.9me.net": "https://suc.9me.net/sub?",
           "api.dler.io(sub作者&lhie1提供-稳定)": "https://api.dler.io/sub?",
           "api.wcc.best(sub-web作者提供-稳定)": "https://api.wcc.best/sub?",
           "sub.id9.cc(品云转换)": "https://sub.id9.cc/sub?",
@@ -613,7 +613,7 @@ export default {
       sourceSub = sourceSub.replace(/(\n|\r|\n\r)/g, "|");
 
       // 薯条屏蔽
-      if (sourceSub.indexOf("losadhwse") !== -1 && (backend.indexOf("py6.pw") !== -1 || backend.indexOf("subconverter-web.now.sh") !== -1 || backend.indexOf("subconverter.herokuapp.com") !== -1 || backend.indexOf("api.wcc.best") !== -1)) {
+      if (sourceSub.indexOf("losadhwse") !== -1 && (backend.indexOf("sub.9me.net") !== -1 || backend.indexOf("sub.9me.net") !== -1 || backend.indexOf("subconverter.herokuapp.com") !== -1 || backend.indexOf("api.wcc.best") !== -1)) {
         this.$alert('此机场订阅已将该后端屏蔽，请自建后端转换。', '转换错误提示', {
           confirmButtonText: '确定',
           callback: action => {
